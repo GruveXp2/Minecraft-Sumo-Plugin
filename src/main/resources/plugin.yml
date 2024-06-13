@@ -1,0 +1,18 @@
+name: Sumo
+version: '${project.version}'
+main: gruvexp.gruvexp.Main
+api-version: 1.19
+authors: [ GruveXp ]
+description: The first plugin for the Sumo server made by the Master of Commands GruveXp
+website: https://www.youtube.com/channel/UCZsak04_6H192H5NVDrJ4Ww
+
+commands:
+  menu:
+    usage: /menu
+    description: Used to access the menu
+  start:
+    usage: /start
+    description: Starts Sumo game
+  test:
+    usage: /test
+    description: Test out parts of new features to see if they work
